@@ -86,19 +86,6 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>hn</id>
-            <name>HN Artifactory Relsease</name>
-            <url>http://nexus.hn:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>hn</id>
-            <name>HN Artifactory Snapshots</name>
-            <url>http://nexus.hn:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <repositories>
         <repository>
             <id>spring-milestones</id>
