@@ -16,7 +16,9 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://peer2:8762/eureka/, http://peer1:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
       # 将自己注册到eureka server 服务上
   instance:
     prefer-ip-address: true
+    metadata-map:
+      my-metadata: test-haoj

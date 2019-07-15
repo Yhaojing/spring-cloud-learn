@@ -7,7 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-aggregator" />
+        <module name="microservice-consumer-movie" />
         <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-provider-user-my-metadata" />
         <module name="microservice-simple-provider-user" />
       </profile>
     </annotationProcessing>

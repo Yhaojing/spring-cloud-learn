@@ -1,4 +1,4 @@
-package com.haojing.microservice.discovery.eureka.ha;
+package com.haojing.microservice.simple.provider.user;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MicroserviceDiscoveryEurekaApplicationTests {
+public class MicroserviceSimpleProviderUserApplicationTests {
 
     @Test
     public void contextLoads() {

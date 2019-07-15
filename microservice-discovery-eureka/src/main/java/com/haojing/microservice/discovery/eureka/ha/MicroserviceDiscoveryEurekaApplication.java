@@ -1,4 +1,4 @@
-package com.haojing.microservice.discovery.eureka;
+package com.haojing.microservice.discovery.eureka.ha;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
