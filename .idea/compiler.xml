@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-aggregator" />
-        <module name="microservice-simple-consumer-movie" />
+        <module name="microservice-discovery-eureka" />
         <module name="microservice-simple-provider-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="microservice-simple-consumer-movie" target="1.8" />
       <module name="microservice-simple-consumer-movie (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
